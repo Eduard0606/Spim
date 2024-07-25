@@ -1,0 +1,247 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+.cont {
+  display: flex;
+  justify-content: center;
+  min-width: 1200px;
+  max-width: 1200px;
+  height: 2038px;
+  background-color: #f7f7f7;
+  box-shadow: 0px 0px 4px 0px #00000026;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  background-image: url(../public/img/Banner.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 725px;
+}
+.logo {
+  position: absolute;
+  width: 204.33px;
+  height: 39.59px;
+  top: 20px;
+  left: 498px;
+  padding: 0px;
+  border-radius: 3px 3px 0px 0px;
+}
+.main-content {
+  position: absolute;
+  width: 306px;
+  height: 164px;
+  top: 140px;
+  left: 447px;
+  font-size: 42px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+.melon1 {
+  position: absolute;
+  width: 117.2px;
+  height: 60px;
+  top: 296px;
+  left: 426px;
+}
+
+.melon2 {
+  position: absolute;
+  width: 106.55px;
+  height: 60px;
+  top: 296px;
+  left: 560px;
+}
+.melon3 {
+  position: absolute;
+  width: 69.25px;
+  height: 60px;
+  top: 296px;
+  left: 681px;
+}
+.condition {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 315px;
+  height: 72px;
+  top: 356px;
+  left: 447px;
+}
+.block1 {
+  margin-left: -12px;
+  margin-right: 25px;
+  font-size: 40px;
+  line-height: 46.88px;
+  text-align: center;
+}
+.block2 {
+  font-size: 40px;
+  line-height: 46.88px;
+  text-align: center;
+}
+.block3 {
+  font-size: 40px;
+  line-height: 46.88px;
+  text-align: center;
+}
+.time {
+  display: block;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 16.41px;
+  text-align: center;
+}
+.promo-code {
+  position: absolute;
+  width: 258px;
+  height: 51px;
+  top: 473px;
+  left: 470px;
+  border: 1px dashed black;
+}
+.code {
+  position: absolute;
+  width: 66px;
+  height: 17px;
+  top: 448px;
+  left: 568px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.goodbye {
+  display: inline-block;
+  position: absolute;
+  top: -14px;
+  padding: 23px;
+  width: 218px;
+  height: 33px;
+  font-family: Arial;
+  font-size: 28px;
+  line-height: 32.2px;
+}
+.btn {
+  position: absolute;
+  width: 247px;
+  height: 60px;
+  top: 530px;
+  left: 476px;
+  background: #2abe80;
+  border-radius: 40px;
+}
+.btn-text {
+  position: absolute;
+  display: block;
+  width: 155px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 23.44px;
+  text-align: center;
+  color: white;
+  top: 19px;
+  left: 50px;
+}
+
+.main-conten {
+  display: block;
+  position: absolute;
+  width: 600px;
+  height: 1810px;
+  top: 42px;
+  left: 300px;
+  border-radius: 7px 0px 0px 0px;
+  box-shadow: 0px 0px 4px 0px #00000026;
+}
+.main-content-text {
+  position: absolute;
+  width: 500px;
+  height: 334px;
+  top: 700px;
+  left: 50px;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+}
+.main-conten p {
+  margin: 20px;
+}
+.main-content-text b {
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+}
+.cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 500px;
+  height: 191px;
+  top: 1195px;
+  left: 350px;
+  border-radius: 7px 0px 0px 0px;
+  text-align: center;
+}
+.cart2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 500px;
+  height: 191px;
+  top: 1397px;
+  left: 350px;
+  border-radius: 7px 0px 0px 0px;
+  text-align: center;
+}
+.cards span {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.btn2 {
+  position: absolute;
+  width: 184px;
+  height: 60px;
+  top: 1604px;
+  left: 508px;
+  background: #2abe80;
+  border-radius: 40px;
+}
+.btn-text2 {
+  position: absolute;
+  width: 93px;
+  height: 23px;
+  top: 17px;
+  left: 43px;
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 23.44px;
+  color: white;
+}
+.descriptor {
+  position: absolute;
+  width: 500px;
+  height: 120px;
+  top: 1732px;
+  left: 350px;
+  font-family: HelveticaNeueCyr;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #c4c4c4;
+}
