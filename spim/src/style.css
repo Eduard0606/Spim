@@ -8,11 +8,9 @@
 .cont {
   display: flex;
   justify-content: center;
+  width: 600px;
   min-width: 1200px;
   max-width: 1200px;
-  height: 2038px;
-  background-color: #f7f7f7;
-  box-shadow: 0px 0px 4px 0px #00000026;
 }
 .banner {
   display: flex;
@@ -154,20 +152,20 @@
 }
 
 .main-conten {
-  display: block;
+  z-index: -1;
   position: absolute;
   width: 600px;
-  height: 1810px;
-  top: 42px;
-  left: 300px;
-  border-radius: 7px 0px 0px 0px;
-  box-shadow: 0px 0px 4px 0px #00000026;
+  height: 1119px;
+  top: 710px;
+  left: 299px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+
 }
 .main-content-text {
   position: absolute;
   width: 500px;
   height: 334px;
-  top: 700px;
+  top: 10px;
   left: 50px;
   font-family: Arial;
   font-size: 18px;
@@ -244,4 +242,88 @@
   line-height: 20px;
   text-align: center;
   color: #c4c4c4;
+}
+footer {
+  position: absolute;
+  width: 542px;
+  height: 129px;
+  top: 1886px;
+  left: 329px;
+  gap: 0px;
+  opacity: 0px;
+}
+.social {
+  color: rgba(42, 190, 128, 1);
+  width: 245px;
+  height: 25px;
+  top: 1886px;
+  left: 357px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.fot {
+  display: flex;
+  justify-content: space-evenly;
+}
+.fot span {
+  font-family: Arial;
+  font-size: 17px;
+  line-height: 27px;
+  text-align: left;
+  color: rgba(42, 190, 128, 1);
+}
+.letter {
+  width: 542px;
+  height: 33px;
+  font-family: Arial;
+  font-size: 13px;
+  line-height: 16.41px;
+  text-align: left;
+  color: rgba(163, 163, 163, 1);
+  padding: 15px;
+  word-wrap: none;
+}
+.icons2 {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 241px;
+  height: 17px;
+  top: 100px;
+  left: 155px;
+}
+.z2 {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 16.41px;
+  text-align: left;
+  color: rgba(163, 163, 163, 1);
+}
+.z3 {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 16.41px;
+  text-align: left;
+  color: rgba(163, 163, 163, 1);
+}
+
+.img1 {
+  position: absolute;
+  top: 2px;
+  left: 145px;
+}
+.img2 {
+  position: absolute;
+  top: 2px;
+  left: -20px;
+}
+
+.z3 a {
+  text-decoration: none;
+  color: rgba(163, 163, 163, 1);
+}
+.z2 a {
+  text-decoration: none;
+  color: rgba(163, 163, 163, 1);
 }
